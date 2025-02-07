@@ -10,8 +10,8 @@ body {
 }
 
 .card {
-    width: 25rem;
-    height: 40rem;
+    width: 20rem;
+    height: 30rem;
     background-color: hsl(0, 0%, 100%);
     text-align: center;
     border-radius: 1.5rem;
@@ -21,9 +21,9 @@ body {
     -o-border-radius: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 0.15rem;
     align-items: center;
-    padding: 1rem;
+    padding: 1.3rem;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -32,7 +32,7 @@ body {
 }
 
 .image img {
-    width: 24.5rem;
+    width: 20.5rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -42,9 +42,12 @@ body {
 
 .tex :nth-child(1) {
     color: hsl(218, 44%, 22%);
-    font-weight: 900;
+    font-weight: 690;
+    font-size: 1.3rem;
 }
 
 .tex :nth-child(2) {
     color: hsl(216, 15%, 48%);
+    font-weight: 300;
+    font-size: 0.9rem;
 }
